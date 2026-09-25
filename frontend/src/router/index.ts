@@ -11,6 +11,7 @@ const Container = () => import('@/views/container/index.vue')
 const Yardstore = () => import('@/views/yardstore/index.vue')
 const Gate = () => import('@/views/gate/index.vue')
 const Truck = () => import('@/views/truck/index.vue')
+const TruckDriver = () => import('@/views/truck/driver.vue')
 const Tally = () => import('@/views/tally/index.vue')
 const Damage = () => import('@/views/damage/index.vue')
 const Manifest = () => import('@/views/manifest/index.vue')
@@ -34,6 +35,7 @@ const router = createRouter({
     { path: '/yardstore', name: 'yardstore', component: Yardstore },
     { path: '/gate', name: 'gate', component: Gate },
     { path: '/truck', name: 'truck', component: Truck },
+    { path: '/truck/driver', name: 'truck-driver', component: TruckDriver },
     { path: '/tally', name: 'tally', component: Tally },
     { path: '/damage', name: 'damage', component: Damage },
     { path: '/manifest', name: 'manifest', component: Manifest },

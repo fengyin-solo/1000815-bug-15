@@ -148,6 +148,7 @@ class TruckEntry(BaseModel):
     field_5: str | None = None  # 返回时间
     field_6: str | None = None  # 所属车队
     field_7: str | None = None  # 调度状态
+    field_8: str | None = None  # 计划装卸时间
 
 class TallyEntry(BaseModel):
     """理货单明细结构。"""

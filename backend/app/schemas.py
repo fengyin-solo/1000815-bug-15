@@ -144,10 +144,11 @@ class TruckEntry(BaseModel):
     field_1: str | None = None  # 集卡牌号
     field_2: str | None = None  # 司机姓名
     field_3: str | None = None  # 作业任务
-    field_4: str | None = None  # 派车时间
-    field_5: str | None = None  # 返回时间
-    field_6: str | None = None  # 所属车队
-    field_7: str | None = None  # 调度状态
+    field_4: str | None = None  # 计划装卸时间
+    field_5: str | None = None  # 派车时间
+    field_6: str | None = None  # 返回时间
+    field_7: str | None = None  # 所属车队
+    field_8: str | None = None  # 调度状态
 
 class TallyEntry(BaseModel):
     """理货单明细结构。"""
